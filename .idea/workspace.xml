@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0573769-0012-46e9-b712-b913e56e4ecf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="b0573769-0012-46e9-b712-b913e56e4ecf" name="Changes" comment="Change Pom and add Test class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BankAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,6 +47,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666882560367</updated>
     </task>
+    <task id="LOCAL-00001" summary="Change Pom and add Test class">
+      <created>1666883137213</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666883137213</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -51,5 +67,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Change Pom and add Test class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Pom and add Test class" />
   </component>
 </project>
