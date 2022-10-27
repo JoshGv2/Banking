@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0573769-0012-46e9-b712-b913e56e4ecf" name="Changes" comment="Change Pom and add Test class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BankAccount.java" afterDir="false" />
+    <list default="true" id="b0573769-0012-46e9-b712-b913e56e4ecf" name="Changes" comment="set up bank account">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BankAccountTest.java" afterDir="false" />
+    </list>
+    <list id="92cfeac2-cb8a-4b5c-9498-7a46df74d146" name="Changes by Admin" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BankAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +31,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/org/example/BankAccount.java">
+      <ranges>
+        <range start1="6" end1="6" start2="6" end2="7" changelist="b0573769-0012-46e9-b712-b913e56e4ecf" />
+        <range start1="7" end1="8" start2="8" end2="11" changelist="b0573769-0012-46e9-b712-b913e56e4ecf" />
+        <range start1="9" end1="10" start2="12" end2="14" changelist="b0573769-0012-46e9-b712-b913e56e4ecf" />
+        <range start1="13" end1="14" start2="17" end2="18" changelist="b0573769-0012-46e9-b712-b913e56e4ecf" />
+        <range start1="15" end1="15" start2="19" end2="24" changelist="92cfeac2-cb8a-4b5c-9498-7a46df74d146" />
+        <range start1="17" end1="17" start2="26" end2="54" changelist="92cfeac2-cb8a-4b5c-9498-7a46df74d146" />
+        <range start1="18" end1="18" start2="55" end2="58" changelist="92cfeac2-cb8a-4b5c-9498-7a46df74d146" />
+        <range start1="20" end1="20" start2="60" end2="76" changelist="92cfeac2-cb8a-4b5c-9498-7a46df74d146" />
+        <range start1="21" end1="21" start2="77" end2="79" changelist="92cfeac2-cb8a-4b5c-9498-7a46df74d146" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/pom.xml">
+      <ranges>
+        <range start1="14" end1="14" start2="14" end2="16" changelist="b0573769-0012-46e9-b712-b913e56e4ecf" />
+        <range start1="27" end1="27" start2="29" end2="31" changelist="92cfeac2-cb8a-4b5c-9498-7a46df74d146" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/test/java/org/example/BankAccountTest.java">
+      <ranges>
+        <range start1="3" end1="3" start2="3" end2="5" changelist="b0573769-0012-46e9-b712-b913e56e4ecf" />
+        <range start1="8" end1="13" start2="10" end2="14" changelist="b0573769-0012-46e9-b712-b913e56e4ecf" />
+        <range start1="14" end1="14" start2="15" end2="46" changelist="b0573769-0012-46e9-b712-b913e56e4ecf" />
+        <range start1="15" end1="15" start2="47" end2="49" changelist="92cfeac2-cb8a-4b5c-9498-7a46df74d146" />
+      </ranges>
+    </file>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -38,6 +75,33 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BankAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Banking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.BankAccountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BankAccountTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666883137213</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="set up bank account">
+      <created>1666883453090</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666883453090</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,6 +141,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change Pom and add Test class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Pom and add Test class" />
+    <MESSAGE value="set up bank account" />
+    <option name="LAST_COMMIT_MESSAGE" value="set up bank account" />
   </component>
 </project>
