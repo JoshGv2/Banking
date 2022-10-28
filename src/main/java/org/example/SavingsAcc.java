@@ -27,7 +27,6 @@ public class SavingsAcc extends BankAccount {
     void deductInterestToBal(){
         super.setBalance(getBalance()*((100-interestRate)/100));
     }
-
-
-
 }
+
+

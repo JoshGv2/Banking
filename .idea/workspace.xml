@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0573769-0012-46e9-b712-b913e56e4ecf" name="Changes" comment="Set up current and savings accounts">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="b0573769-0012-46e9-b712-b913e56e4ecf" name="Changes" comment="testing the adding and deducting interest methods, and adding the method for displaying account information">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CurrentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CurrentAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SavingsAcc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SavingsAcc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BankAccountTest.java" afterDir="false" />
     </list>
     <list id="92cfeac2-cb8a-4b5c-9498-7a46df74d146" name="Changes by Admin" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666955654211</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="testing the adding and deducting interest methods, and adding the method for displaying account information">
+      <created>1666957197517</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666957197517</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +137,7 @@
     <MESSAGE value="Change Pom and add Test class" />
     <MESSAGE value="set up bank account" />
     <MESSAGE value="Set up current and savings accounts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up current and savings accounts" />
+    <MESSAGE value="testing the adding and deducting interest methods, and adding the method for displaying account information" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing the adding and deducting interest methods, and adding the method for displaying account information" />
   </component>
 </project>
