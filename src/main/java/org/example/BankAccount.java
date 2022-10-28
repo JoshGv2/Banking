@@ -74,6 +74,12 @@ public class BankAccount {
         }
         setBalance(Balance-i);
     }
+
+    public void printInfo() {
+        System.out.println("Account holder name: " + this.getAccHolderName());
+        System.out.println("Account account type: " + this.getAccType());
+        System.out.println("Account balance: " + this.getBalance() +"\n");
+    }
 }
 
 
