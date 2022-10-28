@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0573769-0012-46e9-b712-b913e56e4ecf" name="Changes" comment="set up bank account">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CurrentAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SavingsAcc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BankAccountTest.java" afterDir="false" />
     </list>
-    <list id="92cfeac2-cb8a-4b5c-9498-7a46df74d146" name="Changes by Admin" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BankAccountTest.java" afterDir="false" />
-    </list>
+    <list id="92cfeac2-cb8a-4b5c-9498-7a46df74d146" name="Changes by Admin" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,50 +26,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/org/example/BankAccount.java">
-      <ranges>
-        <range start1="6" end1="6" start2="6" end2="7" changelist="b0573769-0012-46e9-b712-b913e56e4ecf" />
-        <range start1="7" end1="8" start2="8" end2="11" changelist="b0573769-0012-46e9-b712-b913e56e4ecf" />
-        <range start1="9" end1="10" start2="12" end2="14" changelist="b0573769-0012-46e9-b712-b913e56e4ecf" />
-        <range start1="13" end1="14" start2="17" end2="18" changelist="b0573769-0012-46e9-b712-b913e56e4ecf" />
-        <range start1="15" end1="15" start2="19" end2="24" changelist="92cfeac2-cb8a-4b5c-9498-7a46df74d146" />
-        <range start1="17" end1="17" start2="26" end2="54" changelist="92cfeac2-cb8a-4b5c-9498-7a46df74d146" />
-        <range start1="18" end1="18" start2="55" end2="58" changelist="92cfeac2-cb8a-4b5c-9498-7a46df74d146" />
-        <range start1="20" end1="20" start2="60" end2="76" changelist="92cfeac2-cb8a-4b5c-9498-7a46df74d146" />
-        <range start1="21" end1="21" start2="77" end2="79" changelist="92cfeac2-cb8a-4b5c-9498-7a46df74d146" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/pom.xml">
-      <ranges>
-        <range start1="14" end1="14" start2="14" end2="16" changelist="b0573769-0012-46e9-b712-b913e56e4ecf" />
-        <range start1="27" end1="27" start2="29" end2="31" changelist="92cfeac2-cb8a-4b5c-9498-7a46df74d146" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/test/java/org/example/BankAccountTest.java">
-      <ranges>
-        <range start1="3" end1="3" start2="3" end2="5" changelist="b0573769-0012-46e9-b712-b913e56e4ecf" />
-        <range start1="8" end1="13" start2="10" end2="14" changelist="b0573769-0012-46e9-b712-b913e56e4ecf" />
-        <range start1="14" end1="14" start2="15" end2="46" changelist="b0573769-0012-46e9-b712-b913e56e4ecf" />
-        <range start1="15" end1="15" start2="47" end2="49" changelist="92cfeac2-cb8a-4b5c-9498-7a46df74d146" />
-      </ranges>
-    </file>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Gis5p1jKN0L765tD5vWcTpz87Y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example" />
@@ -92,6 +60,17 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.BankAccountTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
