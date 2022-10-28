@@ -39,7 +39,7 @@ public class BankAccountTest {
     }
 
     @Test
-    void createCurrentAccTest(){
+    void createCurrentAccTest() throws Exception {
         BankAccount joshBankAccount = new CurrentAccount( 500,"Josh", BankAccount.AccType.SAVINGS, 250);
         joshBankAccount.deposit(1000);
         assertEquals(1500, joshBankAccount.getBalance());
