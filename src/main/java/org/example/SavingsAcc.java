@@ -19,4 +19,15 @@ public class SavingsAcc extends BankAccount {
         }
         this.interestRate = interestRate;
     }
+
+    void addInterestToBal(){
+        super.setBalance(getBalance()*((100+interestRate)/100));
+    }
+
+    void deductInterestToBal(){
+        super.setBalance(getBalance()*((100-interestRate)/100));
+    }
+
+
+
 }
