@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 public class BankAccountTest {
 
     @Test
-    void test_createAccountTest(){
+    void test_createAccount(){
         BankAccount joshBankAccount = new BankAccount( 500,"Josh", BankAccount.AccType.SAVINGS);
         BankAccount nothandoBankAccount = new BankAccount( 5000,"Nothando", BankAccount.AccType.SAVINGS);
         assertEquals("Josh", joshBankAccount.getAccHolderName());
@@ -16,7 +16,7 @@ public class BankAccountTest {
     }
 
     @Test
-    void test_depositTest(){
+    void test_deposit(){
         BankAccount joshBankAccount = new BankAccount( 500,"Josh", BankAccount.AccType.SAVINGS);
         joshBankAccount.deposit(1000);
         assertEquals(1500, joshBankAccount.getBalance());
@@ -24,14 +24,14 @@ public class BankAccountTest {
     }
 
     @Test
-    void test_withdrawTest(){
+    void test_withdraw(){
         BankAccount nothandoBankAccount = new BankAccount( 5000,"Nothando", BankAccount.AccType.SAVINGS);
         nothandoBankAccount.withdraw(1000);
         assertEquals(4000, nothandoBankAccount.getBalance());
     }
 
     @Test
-    void test_depositNegativeTest() throws Exception{
+    void test_depositNegative() throws Exception{
         BankAccount joshBankAccount = new BankAccount( 500,"Josh", BankAccount.AccType.SAVINGS);
         joshBankAccount.deposit(1000);
         assertEquals(1500, joshBankAccount.getBalance());
@@ -39,7 +39,7 @@ public class BankAccountTest {
     }
 
     @Test
-    void test_createCurrentAccTest() throws Exception {
+    void test_createCurrentAcc() throws Exception {
         BankAccount joshBankAccount = new CurrentAccount( 500,"Josh", BankAccount.AccType.SAVINGS, 250);
         joshBankAccount.deposit(1000);
         assertEquals(1500, joshBankAccount.getBalance());
@@ -47,7 +47,7 @@ public class BankAccountTest {
     }
 
     @Test
-    void test_createSavingsAccTest(){
+    void test_createSavingsAcc(){
         BankAccount joshBankAccount = new SavingsAcc( 500,"Josh", BankAccount.AccType.SAVINGS, 250);
         joshBankAccount.deposit(1000);
         assertEquals(1500, joshBankAccount.getBalance());
