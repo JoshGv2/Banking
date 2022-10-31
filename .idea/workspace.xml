@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0573769-0012-46e9-b712-b913e56e4ecf" name="Changes" comment="testing the adding and deducting interest methods, and adding the method for displaying account information">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CustomException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CurrentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CurrentAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BankAccountTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="b0573769-0012-46e9-b712-b913e56e4ecf" name="Changes" comment="added custom exception class and tested it" />
     <list id="92cfeac2-cb8a-4b5c-9498-7a46df74d146" name="Changes by Admin" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666961594858</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added custom exception class and tested it">
+      <created>1666963482750</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666963482750</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +146,7 @@
     <MESSAGE value="set up bank account" />
     <MESSAGE value="Set up current and savings accounts" />
     <MESSAGE value="testing the adding and deducting interest methods, and adding the method for displaying account information" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing the adding and deducting interest methods, and adding the method for displaying account information" />
+    <MESSAGE value="added custom exception class and tested it" />
+    <option name="LAST_COMMIT_MESSAGE" value="added custom exception class and tested it" />
   </component>
 </project>
