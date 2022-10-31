@@ -1,7 +1,9 @@
 package org.example;
 
+import java.text.DecimalFormat;
+
 public class BankAccount {
-    private double Balance;
+    private double balance;
     private double minBalance;
     private String accHolderName;
     private AccType accType;
@@ -25,11 +27,12 @@ public class BankAccount {
     }
 
     public double getBalance() {
-        return Balance;
+        return balance;
     }
 
     public void setBalance(double balance) {
-        Balance = balance;
+        DecimalFormat df = new DecimalFormat("#.##");
+        this.balance = Double.parseDouble(df.format(balance));
     }
 
     public double getMinBalance() {
@@ -62,17 +65,17 @@ public class BankAccount {
         if(i<0){
             throw new IllegalArgumentException("Please enter a value to deposit");
         }
-        setBalance(Balance+i);
+        setBalance(balance +i);
     }
 
     public void withdraw(int i) {
         if(i<0){
             throw new IllegalArgumentException("Please enter a value to withdraw");
         }
-        if(Balance-i<minBalance){
+        if(balance -i<minBalance){
             throw new IllegalArgumentException("Insufficient funds, please withdraw less than the amount u have");
         }
-        setBalance(Balance-i);
+        setBalance(balance -i);
     }
 
     public void printInfo() {

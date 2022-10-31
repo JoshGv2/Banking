@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0573769-0012-46e9-b712-b913e56e4ecf" name="Changes" comment="Add interest">
+    <list default="true" id="b0573769-0012-46e9-b712-b913e56e4ecf" name="Changes" comment="changed java version from 18 to 11">
+      <change afterPath="$PROJECT_DIR$/pomTest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomTestt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BankAccountTest.java" afterDir="false" />
     </list>
+    <list id="92cfeac2-cb8a-4b5c-9498-7a46df74d146" name="Changes by Admin" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +105,42 @@
       <option name="project" value="LOCAL" />
       <updated>1666883453090</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Set up current and savings accounts">
+      <created>1666955654211</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666955654211</updated>
+    </task>
+    <task id="LOCAL-00004" summary="testing the adding and deducting interest methods, and adding the method for displaying account information">
+      <created>1666957197517</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666957197517</updated>
+    </task>
+    <task id="LOCAL-00005" summary="testing the adding and deducting interest methods, and adding the method for displaying account information">
+      <created>1666961594858</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666961594858</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added custom exception class and tested it">
+      <created>1666963482750</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666963482750</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changed java version from 18 to 11">
+      <created>1667229976417</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667229976417</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +157,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change Pom and add Test class" />
     <MESSAGE value="set up bank account" />
-    <option name="LAST_COMMIT_MESSAGE" value="set up bank account" />
+    <MESSAGE value="Set up current and savings accounts" />
+    <MESSAGE value="testing the adding and deducting interest methods, and adding the method for displaying account information" />
+    <MESSAGE value="added custom exception class and tested it" />
+    <MESSAGE value="changed java version from 18 to 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed java version from 18 to 11" />
   </component>
 </project>

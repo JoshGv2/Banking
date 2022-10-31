@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ) throws Exception {
         //create instances of accounts
         BankAccount nothCurrAcc = new CurrentAccount(5000, "Nothando Tshuma", BankAccount.AccType.CURRENT, 500);
         BankAccount joshCurrAcc = new CurrentAccount(7000, "Joshua George", BankAccount.AccType.CURRENT, 700);
@@ -14,7 +13,7 @@ public class Main {
         SavingsAcc joshSavingsAcc = new SavingsAcc(100, "Joshua George", BankAccount.AccType.SAVINGS, 0.5);
 
         //add them to arrayList
-        List<BankAccount> bankAccounts = new ArrayList<BankAccount>();
+        List<BankAccount> bankAccounts = new ArrayList<>();
 
         bankAccounts.add(nothCurrAcc);
         bankAccounts.add(joshCurrAcc);
@@ -39,5 +38,9 @@ public class Main {
 
         joshSavingsAcc.deductInterestToBal();
         System.out.println("Josh's balance after removing interest: " + joshSavingsAcc.getBalance() + "\n");
+
+        //testing CustomException
+        CurrentAccount nothExceptionAcc = new CurrentAccount(5000, "Nothando Tshuma", BankAccount.AccType.CURRENT, -10);
+        CurrentAccount joshExceptionAcc = new CurrentAccount(5000, "Josh George", BankAccount.AccType.CURRENT, 0);
     }
 }

@@ -39,7 +39,7 @@ public class BankAccountTest {
     }
 
     @Test
-    void test_createCurrentAcc(){
+    void test_createCurrentAcc() throws Exception {
         BankAccount joshBankAccount = new CurrentAccount( 500,"Josh", BankAccount.AccType.SAVINGS, 250);
         joshBankAccount.deposit(1000);
         assertEquals(1500, joshBankAccount.getBalance());
@@ -54,5 +54,3 @@ public class BankAccountTest {
         assertThrows(IllegalArgumentException.class, ()->joshBankAccount.deposit(-5000));
     }
 }
-
-
